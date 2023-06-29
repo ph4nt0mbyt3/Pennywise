@@ -10,3 +10,7 @@ This is a c# tinny version of Blackout: https://github.com/ZeroMemoryEx/Blackout
 sc create Pennywise binPath="c:\path\to\driver.sys" type= kernel start= demand
 sc start Pennywise
 ```
+
+```
+Pennywise.exe -p PID
+```
